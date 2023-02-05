@@ -1,0 +1,43 @@
+* {
+  box-sizing: border-box;
+}
+
+h1 {
+  color: rgb(227, 186, 20);
+  background-color: rgb(35, 17, 17);
+  font-size: 32px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+
+.especial {
+  font-size: 24px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(35, 17, 17);
+}
+
+.geral {
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(35, 17, 17);
+}
+
+.pgeral {
+  text-align: justify;
+  margin: 30px;
+}
+
+.img {
+  width: 100%;
+  max-width: auto;
+}
+
+.lk {
+  /* é necessário o uso do display: block para aplicar 
+  as caracteristicas no bloco .lk */
+  display: block;
+  margin-right: 30px;
+  font-size: 14px;
+  text-align: right;
+  font-family: Arial, Helvetica, sans-serif;
+}
