@@ -1,13 +1,15 @@
 function idadeGrupo() {
-  let num = document.getElementById('idade').value;
-  console.log(num);
-  if (num < 0 || (num => 110)) {
+  let idade = document.getElementById('idade').value;
+  console.log(idade);
+  if (idade < 0) {
     document.getElementById('retorno').innerHTML = 'Idade inválida';
-  } else if (num <= 12) {
+  } else if (idade >= 110) {
+    document.getElementById('retorno').innerHTML = 'Idade inválida';
+  } else if (idade <= 12) {
     document.getElementById('retorno').innerHTML = 'Idade de uma criança.';
-  } else if (num <= 17) {
+  } else if (idade <= 17) {
     document.getElementById('retorno').innerHTML = 'Idade de um adolescente.';
-  } else if (num <= 65) {
+  } else if (idade <= 65) {
     document.getElementById('retorno').innerHTML = 'Idade de um adulto.';
   } else {
     document.getElementById('retorno').innerHTML = 'Idade de um senior.';
