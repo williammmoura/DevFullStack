@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>[M1S03] EX3</title>
+    <link rel="stylesheet" href="./estilo.css" />
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <h1>Mes 1 Semana 3 - Exercício 3</h1>
+    <h2>A Ponte</h2>
+
+    <p>
+      Nenhum carro que pese mais de 1.500kg e tenha mais de 5 metros de
+      comprimento poderá passar pela ponte. Faça um programa que leia as
+      informações e alerte se o carro pode ou não passar pela ponte.
+    </p>
+    <label for="peso">Informe o peso do veículo.</label>
+    <input
+      id="peso"
+      name="peso"
+      type="number"
+      min="0"
+      step=".5"
+      placeholder="Digite o peso aqui..."
+    />
+    <label for="comprimento">Informe o comprimento do veículo.</label>
+    <input
+      id="comprimento"
+      name="comprimento"
+      type="number"
+      min="0"
+      step=".1"
+      placeholder="Digite o comprimento aqui..."
+    />
+
+    <button onclick="permissao()">Check</button>
+
+    <h2 id="retorno"></h2>
+  </body>
+</html>
