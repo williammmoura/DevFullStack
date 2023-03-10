@@ -1,0 +1,102 @@
+.backgroud {
+  background-image: url(https://mcdn.wallpapersafari.com/medium/80/31/8uLjyU.jpg);
+  background-size: 600px;
+  background-position: center;
+  background-attachment: fixed;
+  background-position-x: center;
+}
+
+h1 {
+  color: rgb(255, 255, 255);
+  background-color: rgb(100, 100, 100);
+  font-size: 32px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  width: 400px;
+  align-items: center;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+h2 {
+  background-color: rgb(100, 100, 100);
+  width: 400px;
+  border-radius: 10px;
+  margin: auto;
+  padding: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  align-items: center;
+}
+
+ul {
+  background-color: rgb(150, 150, 150);
+  width: 400px;
+  border-radius: 10px;
+  padding: 10px;
+  list-style: none;
+  align-items: center;
+  margin: auto;
+}
+
+li {
+  margin-top: 5px;
+  margin-left: 10px;
+  display: inline;
+  float: left;
+  width: 300px;
+}
+
+dl {
+  background-color: rgb(150, 150, 150);
+  width: 400px;
+  border-radius: 10px;
+  margin: auto;
+  padding: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  align-items: center;
+}
+dt {
+  margin-top: 10px;
+  font-size: 16px;
+  margin-left: 10px;
+}
+dd {
+  font-size: 18px;
+  font-weight: bold;
+  margin-left: 20px;
+  margin-bottom: 15px;
+}
+
+.geral {
+  text-align: center;
+  margin-top: 10px;
+}
+
+p {
+  font-size: 16px;
+  font-style: initial;
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(0, 0, 0);
+  text-align: justify;
+  margin-left: 10px;
+}
+
+div {
+  display: flex;
+  justify-content: center;
+}
+
+.img {
+  width: 300px;
+  border-radius: 10px;
+}
+
+.lk {
+  /* é necessário o uso do display: block para aplicar 
+  as caracteristicas no bloco .lk */
+  display: block;
+  margin-right: 30px;
+  font-size: 14px;
+  text-align: right;
+  font-family: Arial, Helvetica, sans-serif;
+}
