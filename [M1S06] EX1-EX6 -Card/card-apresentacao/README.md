@@ -7,7 +7,7 @@ Este projeto foi desenvolvido em sala de aula com a turma FullStack [ Itaguaçu 
 - Clone o projeto para a sua máquina
 
 ```bash
-git clone git@github.com:FullStack-Itaguacu/m01s06-receita-react.git .
+git clone git@github.com:git clone git@github.com:https://github.com/EricoCoutoJr/DevFullStack/tree/main/[M1S06] EX1-EX6 -Card .
 ```
 
 Obs: necessário configurar SSH [(veja como clicando aqui)](https://www.youtube.com/watch?v=n-H1eFSsugo)
