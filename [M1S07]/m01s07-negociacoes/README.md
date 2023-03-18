@@ -5,7 +5,7 @@ Para utilizar este projeto como base, faça o seguinte passo-a-passo:
 - Clone o projeto para a sua máquina
 
 ```bash
-git clone git@github.com:EricoCoutoJr/m01s07-negociacoes.git .
+git clone git@github.com:EricoCoutoJr/DevFullStack/[M1S07]/m01s07-negociacoes/.git .
 ```
 
 Obs: necessário configurar SSH [(veja como clicando aqui)](https://www.youtube.com/watch?v=n-H1eFSsugo)
